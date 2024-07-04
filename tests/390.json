@@ -1,0 +1,1 @@
+{"code":"def solve(n, k):\r\n\twhile k > 0:\r\n\t\tif n % 10 == 0:\r\n\t\t\tn \/\/= 10\r\n\t\telse:\r\n\t\t\tn -= 1\r\n\t\tk -= 1\r\n\treturn n\r\nn, k = map(int,input().split())\r\nprint(solve(n, k))","lang":2}

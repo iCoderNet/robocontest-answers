@@ -1,0 +1,1 @@
+{"code":"u, v, b, d = map(int,input().split())\r\nprint(f\"{b * d \/ (u + v):.2f}\")","lang":2}

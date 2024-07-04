@@ -1,0 +1,1 @@
+{"code":"def solve(n, m):\r\n    if n == 1 or m == 1: return n*m*(m*n-1)\r\n    return (m**2)*(n**2)-9*m*n+12*(m+n)-16\r\nn,m=map(int,input().split())\r\nprint(solve(n, m))","lang":2}

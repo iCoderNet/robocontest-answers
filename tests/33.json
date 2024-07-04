@@ -1,0 +1,1 @@
+{"code":"def sum(n):\r\n\ts = 0\r\n\twhile n > 0:\r\n\t\ts, n = s + n % 10, n \/\/ 10\r\n\treturn s\r\ndef check(n):\r\n\ts = p = 0\r\n\ti = 2\r\n\twhile n > 1:\r\n\t\twhile n % i == 0:\r\n\t\t\tn, p = n \/\/ i, p + 1\r\n\t\ts += sum(i) * p\r\n\t\tp = 0\r\n\t\ti += 1\r\n\treturn s\r\n\r\nn = int(input())\r\nif sum(n) == check(n):\r\n\tprint(1)\r\nelse:\r\n\tprint(0)","lang":2}

@@ -1,0 +1,1 @@
+{"code":"from math import *\r\n\r\na, n = 26 * [0], input()\r\nres = factorial(len(n))\r\n\r\nfor i in n:\r\n\ta[ord(i)-97] += 1\r\n\r\nfor i in a:\r\n\tres \/\/= factorial(i)\r\nprint(res)","lang":2}

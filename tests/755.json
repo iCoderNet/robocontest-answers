@@ -1,0 +1,1 @@
+{"code":"x=int(input())\r\nif x%2==1: print(x,(x*x - 1)\/\/2,(x*x + 1)\/\/2)\r\nelse:print(x,(x\/\/2)**2-1,(x\/\/2)**2+1)","lang":2}

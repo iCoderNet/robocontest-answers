@@ -1,0 +1,1 @@
+{"code":"#include<bits\/stdc++.h>\r\nusing namespace std;\r\n\r\nint main()\r\n{\r\n\tint test;\r\n\tcin >> test;\r\n\t\r\n\twhile (test--)\r\n\t{\r\n\t\tlong long m;\r\n\t\tcin >> m;\r\n\t\tif (m == 4 || m == 2 || m == 1)\r\n\t\tcout << \"NO\" << endl;\r\n\t\telse cout << \"YES\\n\";\r\n\t}\r\n\r\n\treturn 0;\r\n}","lang":4}

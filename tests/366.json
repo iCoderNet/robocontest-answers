@@ -1,0 +1,1 @@
+{"code":"print(180 * (int(input()) - 2))","lang":2}

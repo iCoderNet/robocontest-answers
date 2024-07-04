@@ -1,0 +1,1 @@
+{"code":"from math import *\r\nn = int(input()) - 2\r\nprint((factorial(2 * n) \/\/ (factorial(n) * (factorial(n + 1)))) % 1000000007)","lang":2}

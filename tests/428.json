@@ -1,0 +1,1 @@
+{"code":"from math import *\r\nn = int(input())\r\nif n % 2 == 1: k = -1\r\nelse: k = 1\r\n\r\nif n == 0: print(0)\r\nelse: print((floor(((n+17)*(2*n**2+20*n+81)+15*(n+1)*k+120*((floor(n\/5)+1)*((1+(-1)**(n%5))\/2-floor(((n%5)**2)\/8))))\/1200)))","lang":2}

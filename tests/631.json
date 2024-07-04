@@ -1,0 +1,1 @@
+{"code":"def solve():\r\n\r\n    n, k = input().split()\r\n    if k in n:\r\n        return 'Yes'\r\n    cnt = 0\r\n    n = int(n)\r\n    while not(k in str(n - cnt)):\r\n        cnt += 1\r\n    return cnt\r\n\r\nprint(solve())","lang":2}

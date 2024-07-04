@@ -1,0 +1,1 @@
+{"code":"program Kattakichik;\r\nvar \r\n    a, b : integer;\r\nbegin\r\n    readln(a,b);\r\n    if (a > b) then writeln('>');\r\n    if (a < b) then writeln('<');\r\n    if (a = b) then writeln('=');\r\nend.","lang":9}

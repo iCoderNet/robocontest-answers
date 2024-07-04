@@ -1,0 +1,1 @@
+{"code":"def ncr(n, r, p):\r\n    num = den = 1\r\n    for i in range(1,r):\r\n        num = (num * (n - i)) % p\r\n        den = (den * (i + 1)) % p\r\n    return (num * pow(den, p - 2, p)) % p\r\nn = int(input())\r\nprint(ncr(2 * n + 1, n, 1000000007))","lang":2}

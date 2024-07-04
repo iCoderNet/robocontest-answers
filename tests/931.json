@@ -1,0 +1,1 @@
+{"code":"for i in range(int(input())):\r\n  print(-1 + int(input()))","lang":2}

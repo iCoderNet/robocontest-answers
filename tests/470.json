@@ -1,0 +1,1 @@
+{"code":"def solve(a, b):\r\n\tcount = 1\r\n\twhile a >= 1:\r\n\t\ta *= b\r\n\t\tcount += 1\r\n\treturn count\r\n\t\r\na, b = map(str,input().split())\r\na = int(a)\r\nb = eval(b)\r\nprint(solve(a, b))","lang":2}

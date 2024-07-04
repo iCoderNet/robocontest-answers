@@ -1,0 +1,1 @@
+{"code":"from decimal import *\r\na, b = map(int,input().split())\r\nx = Decimal(a * b)\r\nx = int(x.sqrt())\r\nif x ** 2 == a * b:\r\n    print(x)\r\nelse:\r\n    print(-1)","lang":2}

@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\n\r\nmy_list = list(map(int,input().split()))\r\n\r\nmi, ma = 0, 0\r\nrek1 = my_list[0]\r\nrek2 = my_list[0]\r\n\r\nfor x in my_list[1:]:\r\n\r\n\tif rek1 < x:\r\n\t\trek1 = x; ma += 1\r\n\tif rek2 > x:\r\n\t\trek2 = x; mi += 1\r\n\r\nprint(ma,mi)","lang":2}

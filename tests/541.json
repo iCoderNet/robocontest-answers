@@ -1,0 +1,1 @@
+{"code":"a = input()\r\n\r\nx = a\r\ny = a\r\n\r\nn = len(a)\r\ncnt = 0\r\n\r\nwhile x == x[::-1] and y == y[::-1] and len(x) and len(y):\r\n    x = x[1:]\r\n    y = y[:-1]\r\n    cnt += 1\r\n\r\nprint(n - cnt)","lang":2}

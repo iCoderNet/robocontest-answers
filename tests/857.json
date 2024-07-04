@@ -1,0 +1,1 @@
+{"code":"n = input()\r\nk = True\r\nfor i in n:\r\n  if '0' > i or i > '9':\r\n    k = False\r\nif n[0] == '0':\r\n  k = False\r\nif k == False:\r\n  print('no')\r\nelse:\r\n  if sum([int(x) for x in n]) % 2 == 0:\r\n    k = False\r\n  if k == False:\r\n    print('no')\r\n  else:\r\n    print('yes')","lang":2}

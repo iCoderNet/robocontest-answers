@@ -1,0 +1,1 @@
+{"code":"from math import *\r\nn = int(input())\r\nmod = 10 ** 9\r\n\r\nprint(factorial(n - 1) % mod)","lang":2}

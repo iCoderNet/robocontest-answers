@@ -1,0 +1,1 @@
+{"code":"a = list(map(int,input().split()))\r\na.sort()\r\nif a[1] - a[0] > a[2] - a[1]:\r\n  print(a[1] - a[0]-1)\r\nelse:\r\n  print(a[2] - a[1]-1)","lang":2}

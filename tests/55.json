@@ -1,0 +1,1 @@
+{"code":"for i in range(int(input())):\r\n    n = int(input())\r\n    print(n ** 3 + n)","lang":2}

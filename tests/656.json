@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\na = list(map(int,input().split()))\r\na.sort()\r\nif n % 2 == 0:\r\n    print(a[n\/\/2 - 1])\r\nelse:\r\n    print(a[n\/\/2])","lang":2}

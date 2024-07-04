@@ -1,0 +1,1 @@
+{"code":"#include <bits\/stdc++.h> \r\nusing namespace std; \r\n\r\nint minHeight(int base, int area){ \r\n\treturn ceil((float)(2*area)\/base); \r\n} \r\n\r\nint main() { \r\n\tint base, area; \r\n\tcin >> base >> area;\r\n\tcout << minHeight(base, area); \r\n\treturn 0; \r\n}","lang":4}

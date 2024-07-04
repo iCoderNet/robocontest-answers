@@ -1,0 +1,1 @@
+{"code":"from string import *\r\na, k, ans = ascii_uppercase, 0, 0;\r\nfor i in input()[::-1]:\r\n\tans += (26 ** k) * (a.index(i) + 1)\r\n\tk = k + 1;\r\nprint(ans)","lang":2}

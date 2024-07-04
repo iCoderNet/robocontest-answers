@@ -1,0 +1,1 @@
+{"code":"def solve(arr):\r\n\tfor i in range(26):\r\n\t\tif arr[i] == 0:\r\n\t\t\treturn 'pangram emas'\r\n\treturn 'pangram'\r\nword = input().upper()\r\narr = 26 * [0]\r\nfor i in word:\r\n\tif 'A' <= i <= 'Z':\r\n\t\tarr[ord(i) - 65] = 1\r\nprint(solve(arr))","lang":2}

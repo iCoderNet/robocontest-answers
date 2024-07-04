@@ -1,0 +1,1 @@
+{"code":"n = int(input()) \r\narr = list(map(int,input().split()))\r\nmx = -1\r\nfor i in range(n):\r\n if arr[i] % 2 == 0:\r\n  mx = max(mx, arr[i])\r\nprint(mx)","lang":2}

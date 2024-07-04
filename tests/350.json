@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\na, b = map(float,input().split())\r\n\r\ntemp = 0\r\n\r\nst1 = str(a)[-1]\r\nst2 = str(b)[-1]\r\n\r\nif (not (st1 in '50')) and (not (st2 in '50')):\r\n\tprint('NO')\r\nelse:\r\n\tx = int(a + b)\r\n\twhile x >= 1:\r\n\t\tx -= 1\r\n\t\ttemp += 1\r\n\t\t\r\n\tif n == temp and st1 == st2:\r\n\t\tprint('YES')\r\n\telse:\r\n\t\tprint('NO')","lang":2}

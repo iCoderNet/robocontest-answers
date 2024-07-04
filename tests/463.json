@@ -1,0 +1,1 @@
+{"code":"a,b=map(int,input().split())\r\n\r\nif a<2 or b<2:\r\n  print(0)\r\n  exit()\r\n\r\na=a*(a-1)\/\/2\r\nb=b*(b-1)\/\/2\r\n\r\nans=a*b\r\nans%=10**9+7\r\nprint(ans)","lang":2}

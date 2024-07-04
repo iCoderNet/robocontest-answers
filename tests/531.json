@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\na1=list(map(int,input().split()))\r\na2=list(map(int,input().split()))\r\nfor i in range(n):\r\n  print(a1[i]^a2[i],end=\" \")","lang":2}

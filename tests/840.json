@@ -1,0 +1,1 @@
+{"code":"t=int(input())\r\nfor i in range(t):\r\n\tn=int(input())\r\n\ta=str(n)\r\n\tp=list(a)\r\n\tl=len(p)\r\n\tif int(p[l-1])%2==0:\r\n\t\tprint(0)\r\n\telif int(p[0])%2==0:\r\n\t\tprint(1)\r\n\telse:\r\n\t\ty=0\r\n\t\tfor j in range(l):\r\n\t\t\tif int(p[j])%2==0:\r\n\t\t\t\ty=1\r\n\t\tif y==1:\r\n\t\t\t\tprint(2)\r\n\t\telse:\r\n\t\t\t\tprint(-1)","lang":2}

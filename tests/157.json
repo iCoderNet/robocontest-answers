@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\na = list(map(int,input().split()))\r\nb = list(set(a))\r\nmax = 0\r\nfor i in range(len(b)-1):\r\n\tif b[i+1] - b[i] <= 1:\r\n\t\tx = a.count(b[i+1])\r\n\t\ty = a.count(b[i])\r\n\t\tif max < x + y:\r\n\t\t\tmax = x + y\r\nfor i in range(len(b)):\r\n\tx = a.count(b[i])\r\n\tif max < x:\r\n\t\tmax = x\r\nprint(max)","lang":2}

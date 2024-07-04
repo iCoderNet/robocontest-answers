@@ -1,0 +1,1 @@
+{"code":"a, b, c = map(float,input().split())\r\np = (a + b + c) \/ 2\r\ns = (p * (p - a) * (p - b) * (p - c)) ** 0.5\r\n#a * h \/ 2 = s --> 2 * s \/ a\r\nprint(f\"{min(2 * s \/ a, 2 * s \/ b, 2 * s \/ c):.10f}\")","lang":2}

@@ -1,0 +1,1 @@
+{"code":"n = float(input())\r\nprint(f\"{1-n*n\/2:.5f}\")","lang":2}

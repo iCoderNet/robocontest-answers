@@ -1,0 +1,1 @@
+{"code":"for i in range(int(input())):\r\n    print(int(input()) ** 2 % 1000000007)","lang":2}

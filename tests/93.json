@@ -1,0 +1,1 @@
+{"code":"for i in range(int(input())):\r\n    a = input()\r\n    print(len(a)-len(set(a)))","lang":2}

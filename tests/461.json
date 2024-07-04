@@ -1,0 +1,1 @@
+{"code":"p, n = map(float,input().split())\r\nq = 1 - p\r\nprint(f\"{n*pow(p,n-1)*q:.4f}\")","lang":2}

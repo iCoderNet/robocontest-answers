@@ -1,0 +1,1 @@
+{"code":"def fnMod (n):\r\n    res = 4 if (n % 4 == 0) else 0\r\n    return res\r\n \r\nn = int(input())\r\nprint (fnMod(n))","lang":2}

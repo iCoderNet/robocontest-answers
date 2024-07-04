@@ -1,0 +1,1 @@
+{"code":"def f(n):\r\n  return sum([int(x) for x in n])\r\nfor _ in range(int(input())):\r\n  x = int(input())\r\n  while x > 9:\r\n    x = f(str(x))\r\n  print(x)","lang":2}

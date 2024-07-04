@@ -1,0 +1,1 @@
+{"code":"def solve(n):\r\n  print(n \/\/ 2 + 1)\r\nsolve(int(input()))","lang":2}

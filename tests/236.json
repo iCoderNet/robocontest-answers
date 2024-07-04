@@ -1,0 +1,1 @@
+{"code":"def solve(n):\r\n\tif n >= 0:\r\n\t\treturn n * (n + 1) \/\/ 2\r\n\treturn -(n * (n - 1) \/\/ 2) + 1\r\n\r\nprint(solve(int(input())))","lang":2}

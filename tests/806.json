@@ -1,0 +1,1 @@
+{"code":"a, b = map(int,input().split())\r\ncnt = 0\r\nif a > b: \r\n\ta, b = b, a\r\n\r\nwhile a != 0 and b != 0:\r\n\tcnt += b \/\/ a\r\n\tb %= a\r\n\tif a > b:\r\n\t\ta, b = b, a\r\n\r\nprint(cnt)","lang":2}

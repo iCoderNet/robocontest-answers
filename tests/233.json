@@ -1,0 +1,1 @@
+{"code":"n, m = map(int,input().split())\r\n\r\nx = int(n ** 0.5)\r\ny = 0\r\n\r\nif int(m ** 0.5) ** 2 == m:\r\n\ty = 1\r\nprint(x, y)","lang":2}

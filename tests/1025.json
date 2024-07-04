@@ -1,0 +1,1 @@
+{"code":"for _ in range(int(input())):\r\n\tr,g,b=sorted(map(int,input().split()))\r\n\tprint(\"no\" if b>g+r+1 else \"yes\")","lang":2}

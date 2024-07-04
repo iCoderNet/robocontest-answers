@@ -1,0 +1,1 @@
+{"code":"s=input()\r\nprint('Yes' if 2*s.count('z')==s.count('o') else 'No')","lang":2}

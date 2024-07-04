@@ -1,0 +1,1 @@
+{"code":"from decimal import *\r\nfrom math import *\r\nn = int(input())\r\nx = Decimal(2*n+1).ln()\r\ny = Decimal(3).ln()\r\nprint(ceil(x\/y))","lang":2}

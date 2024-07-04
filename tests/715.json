@@ -1,0 +1,1 @@
+{"code":"n, m, h, f = map(int,input().split())\r\nx = n + h + f - m\r\nif x < 0:\r\n\tx = -1\r\nprint(x)","lang":2}

@@ -1,0 +1,1 @@
+{"code":"t = int(input())\r\ns = 0\r\nbl = 100000\r\nfor _ in range(t):\r\n    n,m,a,b = map(int,input().split())\r\n    s += m*15-(n-m)*5-(a-m)\r\n    if bl >= b:\r\n        s += 5\r\n    else: s -= 10\r\n    bl = b\r\nprint(s)\r\n#55555555555555555555555555555555555","lang":2}

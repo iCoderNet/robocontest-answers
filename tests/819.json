@@ -1,0 +1,1 @@
+{"code":"n, m = map(int,input().split())\r\na = list(map(int,input().split()))\r\na.sort()\r\nsm = sum(a)\r\nres = n\r\nfor i in range(n):\r\n\tif sm > m:\r\n\t\tsm -= a[-i-1]\r\n\t\tres -= 1\r\n\telse:\r\n\t\tbreak\r\nprint(\"Shokoladxo'r\" if res == n else res)","lang":2}

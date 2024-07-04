@@ -1,0 +1,1 @@
+{"code":"arr = list(map(int,input().split()))\r\nprint(int(input()) * sum(arr) if len(arr) == 1 else sum(arr))","lang":2}

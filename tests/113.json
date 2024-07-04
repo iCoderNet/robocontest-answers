@@ -1,0 +1,1 @@
+{"code":"#include <bits\/stdc++.h>\r\n#define int long long\r\n\r\nusing namespace std;\r\n\r\nint32_t main()\r\n{\r\n    int n;\r\n\r\n    cin >> n;\r\n\r\n    if (n < 38) cout << n;\r\n    else\r\n    if (5 - n % 5 < 3) cout << n + 5 - n % 5;\r\n    else cout << n;\r\n\r\n\r\n  return 0;\r\n}","lang":4}

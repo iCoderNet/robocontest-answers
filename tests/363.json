@@ -1,0 +1,1 @@
+{"code":"def solve(a, b, c):\r\n\r\n\td = b ** 2 - 4 * a * c\r\n\tif d > 0:\r\n\t\td = d ** 0.5\r\n\t\tprint(f'{(-b+d)\/(2*a):.4f} {(-b-d)\/(2*a):.4f}')\r\n\telif d == 0:\r\n\t\tprint(f'{-b\/2:.4f}')\r\n\r\na, b, c = map(int,input().split())\r\nsolve(a, b, c)","lang":2}

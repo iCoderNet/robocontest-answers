@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\nleft, reght = [], []\r\nfor i in range(n):\r\n\tarr = list(map(int,input().split()))\r\n\tfor j in arr[i+1:]:\r\n\t\treght.append(j)\r\n\tfor j in arr[:i]:\r\n\t\tleft.append(j)\r\nleft.sort()\r\nreght.sort()\r\nif n == 1:\r\n\tprint(0,0)\r\nelif n == 2:\r\n\tprint(0, 0)\r\nelse:\r\n\tprint(left[0] + left[1],reght[-1] + reght[-2])","lang":2}

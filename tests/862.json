@@ -1,0 +1,1 @@
+{"code":"def solve(N):\r\n  arr = {\"9\": \"6\", \"6\": \"9\", \"8\": \"8\", \"1\": \"1\", \"0\": \"0\"}\r\n\r\n  lef = 0\r\n  r = len(N) - 1\r\n  \r\n  while lef <= r:\r\n      if N[lef] in arr and arr[N[lef]] == N[r]:\r\n          lef += 1\r\n          r -= 1            \r\n      else:\r\n          return 'NO'\r\n  \r\n  return 'YES'\r\nprint(solve(input()))","lang":2}

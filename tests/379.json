@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\nprint(n * (n + 2) * (n + 4) \/\/ 3)","lang":2}

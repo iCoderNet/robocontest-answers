@@ -1,0 +1,1 @@
+{"code":"s = ['qwertyuiop','asdfghjkl','zxcvbnm']\r\nn = input()\r\nx = input()\r\ny = ''.join([chr(x+97) for x in range(26)]) + ''.join([chr(x+65) for x in range(26)])\r\n\r\nfor i in x:\r\n\tif i in y:\r\n\t\tfor j in range(3):\r\n\t\t\tif i in s[j]:\r\n\t\t\t\tk = s[j].index(i)\r\n\t\t\t\tprint(s[j][k-1],end = '')\r\n\telse:\r\n\t\tprint(i, end = '')","lang":2}

@@ -1,0 +1,1 @@
+{"code":"#include<bits\/stdc++.h>\r\nusing namespace std;\r\nint solve() {\r\n    int x;\r\n    cin >> x;\r\n    if (x == 0) return 101;\r\n    if (x == 99) return 102;\r\n    return 103;\r\n}\r\nint main()\r\n{\r\n    int t = 1;\r\n    while (t--) cout << solve() << endl;\r\n\r\n    return 0;\r\n}","lang":4}

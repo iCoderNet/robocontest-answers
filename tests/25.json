@@ -1,0 +1,1 @@
+{"code":"from datetime import *\r\nprint(timedelta(seconds=(int(input()))%86400))","lang":2}

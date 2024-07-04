@@ -1,0 +1,1 @@
+{"code":"print('YES' if int(input())%7==0 else 'NO')","lang":2}

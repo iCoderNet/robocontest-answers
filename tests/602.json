@@ -1,0 +1,1 @@
+{"code":"n = len(input())\r\nprint(n * (n + 1) \/\/ 2)","lang":2}

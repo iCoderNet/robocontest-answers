@@ -1,0 +1,1 @@
+{"code":"a, b, c = input().split()\r\nprint(c)","lang":2}

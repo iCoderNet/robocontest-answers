@@ -1,0 +1,1 @@
+{"code":"def solve(n, k, l):\r\n\tarr = list(map(int,input().split()))\r\n\tarr.sort()\r\n\tfor i in arr:\r\n\t\tif k - i >= 0:\r\n\t\t\tk, l = k - i, l + 1\r\n\t\telse:\r\n\t\t\treturn l;\r\n\treturn l;\r\nn , k = map(int,input().split())\r\nprint(solve(n, k, 0))","lang":2}

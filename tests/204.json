@@ -1,0 +1,1 @@
+{"code":"def solve(n, mod):\r\n    \r\n    return (2 * n ** 2) % mod\r\n    \r\nn, q = map(int,input().split())\r\nprint(solve(n, q))","lang":2}

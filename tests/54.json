@@ -1,0 +1,1 @@
+{"code":"if int(input()) % 2 == 0: print('Husan')\r\nelse: print('Hasan')","lang":2}

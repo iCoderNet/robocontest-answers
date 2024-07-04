@@ -1,0 +1,1 @@
+{"code":"#include <bits\/stdc++.h>\r\nusing namespace std;\r\n\r\nint main()\r\n{\r\n    int a, b;\r\n    cin >> a >> b;\r\n    a = 7 - max(a, b);\r\n\r\n    int gcd = __gcd(6, a);\r\n    cout << a \/ gcd << \"\/\" << 6 \/ gcd;\r\n\r\n\treturn 0;\r\n}","lang":4}

@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\nif n < 4:\r\n  print(0)\r\nelse:\r\n  print(n * (n - 3) \/\/ 2)","lang":2}

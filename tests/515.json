@@ -1,0 +1,1 @@
+{"code":"N = input().strip('%')\r\nN = int(N)\r\nfor i in range(1, 1000):\r\n    if (N * i) % 100 == 0:\r\n        X = N * i \/\/ 100\r\n        Y = i\r\n        t = 100 * Y \/\/ X\r\n        print(str(t) + '%')\r\n        break","lang":2}

@@ -1,0 +1,1 @@
+{"code":"def maxXORInRange(L, R): \r\n\r\n\tLXR = L ^ R \r\n\r\n\tmsbPos = 0\r\n\twhile(LXR): \r\n\t\r\n\t\tmsbPos += 1\r\n\t\tLXR >>= 1\r\n\t\r\n\tmaxXOR, two = 0, 1\r\n\t\r\n\twhile (msbPos): \r\n\t\r\n\t\tmaxXOR += two \r\n\t\ttwo <<= 1\r\n\t\tmsbPos -= 1\r\n\r\n\treturn maxXOR \r\n\r\nL, R = int(input()), int(input())\r\nprint(maxXORInRange(L, R))","lang":2}

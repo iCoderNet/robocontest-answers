@@ -1,0 +1,1 @@
+{"code":"I = int\r\nn = I(input())\r\nprint(I(bin(n)[2:]) \/\/ I(oct(n)[2:]))","lang":2}

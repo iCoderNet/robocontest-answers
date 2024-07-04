@@ -1,0 +1,1 @@
+{"code":"def isprime(n):\r\n\ti = 2\r\n\twhile i * i <= n:\r\n\t\tif n % i == 0:\r\n\t\t\treturn False\r\n\t\ti += 1\r\n\treturn True\r\n\r\na, b = map(int,input().split())\r\nif abs(a - b) == 2 and isprime(a) and isprime(b):\r\n\tprint('Yes')\r\nelse:\r\n\tprint('No')","lang":2}

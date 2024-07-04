@@ -1,0 +1,1 @@
+{"code":"print(sum([ord(x) for x in input()]))","lang":2}

@@ -1,0 +1,1 @@
+{"code":"from datetime import *\r\nx, y, z = map(int,input().split())\r\na, b, c = map(int,input().split())\r\ndate1 = 3600 * a + 60 * b + c\r\ndate2 = 3600 * x + 60 * y + z\r\nprint(date1 - date2)","lang":2}

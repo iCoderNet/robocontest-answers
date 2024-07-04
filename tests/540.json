@@ -1,0 +1,1 @@
+{"code":"def solve(n):\r\n    if n == '-10':\r\n        return 0\r\n    if int(n) < 0:\r\n        if len(n) == 2:\r\n            return int(n)\r\n        if n[-1] > n[-2]:\r\n            return int(n[:len(n)-1])\r\n        return n[:len(n)-2] + n[-1]\r\n    return n\r\nn = input()\r\nprint(int(solve(n)))","lang":2}

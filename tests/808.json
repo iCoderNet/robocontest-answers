@@ -1,0 +1,1 @@
+{"code":"n, k = map(int,input().split())\r\nres = ''\r\nwhile n != len(res):\r\n\tfor i in range(97, 97+k):\r\n\t\tres += chr(i)\r\n\t\tif len(res) == n:\r\n\t\t\tbreak\r\nprint(res)","lang":2}

@@ -1,0 +1,1 @@
+{"code":"from math import *\r\na, b, t = map(int,input().split())\r\nprint(ceil(t * (a - b) \/ b))","lang":2}

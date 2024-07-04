@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\nmod = 10**9 + 7\r\n#a (n) = 2^(n-1)*(1+2^n).\r\nprint((pow(2, n-1, mod) * (1 + pow(2, n, mod))) % mod)","lang":2}

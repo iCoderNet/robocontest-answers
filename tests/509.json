@@ -1,0 +1,1 @@
+{"code":"x, o = 0, 0\r\nfor i in range(3):\r\n    n = input()\r\n    x += n.count('X')\r\n    o += n.count('O')\r\nif x > o:\r\n    print('X')\r\nelse:\r\n    print('O')","lang":2}

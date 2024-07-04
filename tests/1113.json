@@ -1,0 +1,1 @@
+{"code":"l,r=map(int,input().split())\r\na = []\r\nwhile l>0:\r\n\ta.append(l%r)\r\n\tl\/\/=r\r\nprint(sum(a))","lang":2}

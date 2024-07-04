@@ -1,0 +1,1 @@
+{"code":"m, n = map(int,input().split())\r\narr = list(map(int,input().split()))\r\narr.sort()\r\n\r\nsm, cnt = 0, 0\r\nfor i in range(n):\r\n    sm += arr[-i-1]\r\n    cnt += 1\r\n    if sm >= m:\r\n        break\r\nif sm < m:\r\n    cnt = -1\r\nprint(cnt)","lang":2}

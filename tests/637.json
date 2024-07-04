@@ -1,0 +1,1 @@
+{"code":"I = int\r\no = '1'\r\ndef f(n, i):\r\n    t = I(o * i)\r\n    k = n\/\/t\r\n    n %= t\r\n    if n == 0: return k*i\r\n    return k*i+min(i+f(t-n, i-1), f(n, i-1))\r\nprint(f(I(input()), 16))","lang":2}

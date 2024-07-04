@@ -1,0 +1,1 @@
+{"code":"x1, y1 = map(str,input().split())\r\nx2, y2 = map(str,input().split())\r\nx1 = ord(x1) - 48;\r\ny1 = int(y1)\r\nx2 = ord(x2) - 48;\r\ny2 = int(y2)\r\nif abs(x1 - x2) == 2 and abs(y1 - y2) == 1 or abs(x1 - x2) == 1 and abs(y1 - y2) == 2:\r\n\tprint('YES')\r\nelse:\r\n\tprint('NO')","lang":2}

@@ -1,0 +1,1 @@
+{"code":"W = input\r\nfor i in range(int(W())):\r\n\tprint((int(W()) - 1) % 9 + 1)","lang":2}

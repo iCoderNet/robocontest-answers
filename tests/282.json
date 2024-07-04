@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\nmod = 10 ** 9 + 7\r\nif n > 10:\r\n    print((pow(3, n - 9, mod) * (3 ** 9) - pow(2, n-1, mod) * n) % mod)\r\nelse:\r\n    print((pow(3, n, mod) - pow(2, n-1, mod) * n) % mod)","lang":2}

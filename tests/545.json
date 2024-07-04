@@ -1,0 +1,1 @@
+{"code":"def solve(a, b):\r\n    if a == b: return a\r\n    return 1\r\na, b = map(int,input().split())\r\nprint(solve(a, b))","lang":2}

@@ -1,0 +1,1 @@
+{"code":"var = int(input())\r\nif 99999 < var <= 999999:\r\n\tx = var \/\/ 100000 + (var \/\/ 10000) % 10 + (var \/\/ 1000) % 10;\r\n\ty = (var \/\/ 100) % 10 + (var \/\/ 10) % 10 + var % 10;\r\n\tif x == y:\r\n\t\tprint('YES')\r\n\telse:\r\n\t\tprint('NO')\r\nelse:\r\n\tprint('NO')","lang":2}

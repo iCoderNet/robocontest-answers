@@ -1,0 +1,1 @@
+{"code":"def solve(n):\r\n\tif n < 3: return 0;\r\n\tif 2 < n < 7: return 1;\r\n\treturn (n - 3) \/\/ 10 + (n - 7) \/\/ 10 + 2;\r\nn = int(input())\r\nprint(solve(n))\r\n#3 7 13 17 23 27 33 37 43","lang":2}

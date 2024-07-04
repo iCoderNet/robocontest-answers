@@ -1,0 +1,1 @@
+{"code":"\/\/n < 6 -> 0\r\n\/\/\r\n\/\/x = n - 5\r\n\/\/a(x) = x * (x + 1) \/ 2 \r\n\r\n#include<bits\/stdc++.h>\r\n#define int long long\r\nusing namespace std;\r\nint32_t main()\r\n{\r\n    int n;\r\n    cin >> n;\r\n    if (n < 6) cout << 0;\r\n    else {\r\n        int x = n - 5;\r\n        int an = x * (x + 1) \/ 2;\r\n        cout << an;\r\n    }\r\n}","lang":4}

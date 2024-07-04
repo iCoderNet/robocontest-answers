@@ -1,0 +1,1 @@
+{"code":"def solve(n):\r\n    if n % 400 == 0: return 'Kabisa yili'\r\n    elif n % 4 == 0 and n % 100 != 0: return 'Kabisa yili'\r\n    return 'Kabisa yili emas'\r\nprint(solve(int(input())))","lang":2}

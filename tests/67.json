@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\nif n >= 0:\r\n     x = bin(n)[2:]\r\n     y = '0' * (32 - len(x)) + x\r\n     print(y)\r\nelse:\r\n    x = bin(~n)[2:]\r\n    x = x.replace('1','2')\r\n    x = x.replace('0','1')\r\n    x = x.replace('2','0')\r\n    y = '1' * (32 - len(x)) + x\r\n    print(y)","lang":2}

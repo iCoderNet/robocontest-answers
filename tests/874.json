@@ -1,0 +1,1 @@
+{"code":"def check(k):\r\n\r\n\tk = chr(int(k))\r\n\tif 'a' <= k <= 'z' or 'A' <= k <= 'Z':\r\n\t\treturn 1\r\n\treturn 0\r\n\r\ns = ''\r\nfor i in input() + '0':\r\n\ts += i\r\n\tif check(s):\r\n\t\tprint(chr(int(s)), end = '')\r\n\t\ts = ''","lang":2}

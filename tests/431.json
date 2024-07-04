@@ -1,0 +1,1 @@
+{"code":"#include <bits\/stdc++.h>\r\nusing namespace std;\r\n\r\nsigned main(){\r\n  int p, d, m, s;\r\n  cin >> p >> d >> m >> s;\r\n  int ans = 0;\r\n  while (1) {\r\n    if (s >= p) {\r\n      s -= p;\r\n      p -= d;\r\n      if (p < m) {\r\n        p = m;\r\n      }\r\n      ans++;\r\n    }\r\n    else {\r\n      break;\r\n    }\r\n  }\r\n  cout << ans;\r\n}","lang":4}

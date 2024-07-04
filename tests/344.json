@@ -1,0 +1,1 @@
+{"code":"mod = 10 ** 9 + 7\r\nn, m = map(int,input().split())\r\nif n + m < 3 or n == 0 or m == 0:\r\n  print(-1)\r\nelse:\r\n  print(((n * m * (n + m - 2)) \/\/ 2) % mod)","lang":2}

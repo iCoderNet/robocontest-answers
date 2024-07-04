@@ -1,0 +1,1 @@
+{"code":"def solve(k):\r\n\r\n\tvar = 3\r\n\tcur = 3\r\n\twhile k > cur:\r\n\t\tvar *= 2\r\n\t\tcur += var\r\n\r\n\treturn cur - k + 1;\r\n\r\nk = int(input())\r\n\r\nprint(solve(k))","lang":2}

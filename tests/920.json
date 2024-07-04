@@ -1,0 +1,1 @@
+{"code":"from decimal import *\r\nn = int(input())\r\n#110100\r\n\r\n\r\nif n < 3:\r\n    print(1)\r\n    exit(0)\r\nx = Decimal(1 + 8 * n)\r\nx = int(x.sqrt())\r\nx1 = (-1 + x) \/\/ 2\r\nwhile x1 * (x1 + 1) \/\/ 2 > n:\r\n    x1 -= 1\r\nwhile (x1 + 1) * (x1 + 2) \/\/ 2 < n:\r\n    x1 += 1\r\nif x1 * (x1 + 1) \/\/ 2 + 1 == n:\r\n    print(1)\r\nelse:\r\n    print(0)","lang":2}

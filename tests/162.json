@@ -1,0 +1,1 @@
+{"code":"from math import*\r\n\r\ndef solve(m, n, k):\r\n\r\n\tif m >= n + k: return (n + k - 1);\r\n\tif (n + k - 1) % m == 0: return m;\r\n\treturn (n + k - 1) % m;\r\n\r\nt = int(input()) \r\n\r\nfor i in range(t):\r\n\tm, n, k = map(int, input().split())\r\n\tprint(solve(m, n, k))","lang":2}

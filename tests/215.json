@@ -1,0 +1,1 @@
+{"code":"n = int(input()) % 4\r\nif n == 1 or n == 2: print('A')\r\nelse: print('B')","lang":2}

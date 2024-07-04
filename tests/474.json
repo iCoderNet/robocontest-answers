@@ -1,0 +1,1 @@
+{"code":"def solve(n):\r\n\r\n\tif n == 1: \"G'ani\"\r\n\tif n % 2 != 0: return \"Ali\"\r\n\treturn \"G'ani\"\r\n\r\nprint(solve(int(input())))","lang":2}

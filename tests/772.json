@@ -1,0 +1,1 @@
+{"code":"def f(n, k):\r\n\t\r\n\tt = k \/\/ 3\r\n\tif k % 3 != 0:\r\n\t\tt += 1\r\n\tif t > n:\r\n\t\treturn 'NO'\r\n\tif k <= 1 or n == 0:\r\n\t\treturn 'NO'\r\n\treturn 'YES'\r\n\t\r\n\t\r\n\t\r\n\t\r\nn, k = map(int,input().split())\r\nprint(f(n,k))","lang":2}

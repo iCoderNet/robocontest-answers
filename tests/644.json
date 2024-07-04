@@ -1,0 +1,1 @@
+{"code":"x, y = map(float,input().split())\r\nif x > y: x, y = y, x\r\ncnt = 0\r\nfor _ in range(int(input())):\r\n\ta, b = map(float,input().split())\r\n\tif a < b: a, b = b, a\r\n\r\n\tif a \/ b >= x and a \/ b <= y:\r\n\t\tcnt += 1\r\nprint(cnt)","lang":2}

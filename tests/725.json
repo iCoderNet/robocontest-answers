@@ -1,0 +1,1 @@
+{"code":"a, b = map(str,input().split())\r\nx, y = a.split('X')\r\nx = int(x)\r\ny = int(y)\r\nx *= y * int(b)\r\ns = input()\r\nif s == 'MB':\r\n\tk = x \/ (1024 ** 2 * 8)\r\nelif s == 'GB':\r\n\tk = x \/ (1024 ** 2 * 8 * 1024)\r\nelif s == 'KB':\r\n\tk = x \/ (1024 * 8)\r\nelif s == 'B':\r\n\tk = x \/ 8\r\nelse:\r\n\tk = (x \/ 8) * 8\r\n\r\nprint(f\"{k:.4f}\")","lang":2}

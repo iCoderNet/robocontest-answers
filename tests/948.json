@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\na = list(map(int,input().split()))\r\nx, y = map(int,input().split())\r\nmn = min(a)\r\nx -= 1\r\ny -= 1\r\nfor i in range(n):\r\n  if i>=x and y>=i:\r\n    print(f'{a[i]\/mn+0.001:.1f}', end = ' ')\r\n  else:\r\n    print(f'{a[i]:.1f}', end = ' ')","lang":2}

@@ -1,0 +1,1 @@
+{"code":"def dfs(a, b):\r\n  for x in range(10000, -10001, -1):\r\n    if eval(a) == eval(b):\r\n      return x\r\na, b = input().split('=')\r\nprint(dfs(a, b))","lang":2}

@@ -1,0 +1,1 @@
+{"code":"n, k = map(int,input().split())\r\na = [input().split() for _ in range(n)]\r\nl = 0\r\nfor i in range(n):\r\n\tif a[i][0] == '+':\r\n\t\tk += int(a[i][1])\r\n\telse:\r\n\t\tif k >= int(a[i][1]):\r\n\t\t\tk -= int(a[i][1])\r\n\t\telse:\r\n\t\t\tl += 1\r\nprint(k, l)","lang":2}

@@ -1,0 +1,1 @@
+{"code":"a,b,c=map(int,input().split())\r\nprint(a+b-c if a+b>=c else 'Error')","lang":2}

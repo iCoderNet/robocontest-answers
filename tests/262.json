@@ -1,0 +1,1 @@
+{"code":"from math import *\r\n\r\ndef solve(tel):\r\n\r\n\tcur = factorial(7)\r\n\tnum = ''.join([chr(48+x) for x in range(10)])\r\n\tfor x in num:\r\n\t\tcur \/\/= factorial(tel.count(x))\r\n\r\n\treturn cur;\r\n\t\r\nprint(solve(input()[5:]))","lang":2}

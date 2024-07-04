@@ -1,0 +1,1 @@
+{"code":"n=int(input())\r\na=list(map(int,input().split(None,n)[:n]))\r\nA=[]\r\nfor i in range(n):\r\n    A.append(a[i])\r\nk=n\r\n\r\nwhile n-1:\r\n    n-=1\r\n    s=int(input())\r\n    a.remove(s)\r\n    \r\nprint(A.index(a[0])+1,a[0])\r\ndppp= [0] * 11111\r\n#asosiy yechim","lang":2}

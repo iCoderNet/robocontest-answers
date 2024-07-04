@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\na,b,c = map(int,input().split())\r\nif n <= a+b+c:\r\n  print('Yes')\r\nelse:\r\n  print('No')","lang":2}

@@ -1,0 +1,1 @@
+{"code":"print(sum([1 if set(input()) & set('+') else -1 for _ in range(int(input()))]))","lang":2}

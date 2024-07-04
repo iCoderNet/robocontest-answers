@@ -1,0 +1,1 @@
+{"code":"def solve():\r\n    x1, v1, x2, v2 = map(int,input().split())\r\n    for i in range(1, 100001):\r\n        if x1 + v1 * i == x2 + v2 * i:\r\n            return \"YES\"\r\n    return \"NO\"\r\nprint(solve())","lang":2}

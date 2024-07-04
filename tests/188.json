@@ -1,0 +1,1 @@
+{"code":"from string import *\r\n\r\ndef solve(s, abs):\r\n\r\n\tj = len(s)\r\n\r\n\tfor i in abs:\r\n\t\ts = s.replace(i * 2, \"\")\r\n\r\n\tif j == len(s):\r\n\t\treturn s\r\n\treturn solve(s, abs)\r\n\r\ns = input()\r\nabs = ascii_lowercase\r\n\r\nword = solve(s, abs)\r\n\r\nif len(word) == 0:\r\n\tprint(\"Empty String\")\r\nelse:\r\n\tprint(word)","lang":2}

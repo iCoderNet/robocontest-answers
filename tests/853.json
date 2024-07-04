@@ -1,0 +1,1 @@
+{"code":"def f(n):\r\n\tif n < 10:\r\n\t\treturn '0' + str(n)\r\n\treturn str(n)\r\na, b = map(int,input().split(':'))\r\nt = int(input()) % (24 * 60)\r\na += t \/\/ 60\r\nb += t % 60\r\na += b \/\/ 60\r\nb = b % 60\r\na = a % 24\r\nprint(f(a) + ':' + f(b))","lang":2}

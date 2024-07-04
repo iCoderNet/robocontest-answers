@@ -1,0 +1,1 @@
+{"code":"def solve(n, k):\r\n\t\r\n\ta = 1\r\n\tb = -2 * n - 3\r\n\tc = n ** 2 + n - 2 * k\r\n\t\r\n\td = (b ** 2 - 4 * a * c) ** 0.5\r\n\tx1 = (-b - d) \/\/ 2\r\n\tx2 = (-b + d) \/\/ 2\r\n\t\r\n\tif x1 < 0: return x2\r\n\treturn x1\r\n\r\nn, k = map(int,input().split())\r\nprint(int(solve(n, k)))","lang":2}

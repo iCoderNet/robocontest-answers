@@ -1,0 +1,1 @@
+{"code":"t = int(input())\r\narr = list(map(int,input().split()))\r\nfor x in arr:\r\n\tprint(x \/\/ 2)","lang":2}

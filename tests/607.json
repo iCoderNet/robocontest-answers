@@ -1,0 +1,1 @@
+{"code":"print(bin(int(input()))[2:])","lang":2}

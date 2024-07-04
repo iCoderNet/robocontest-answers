@@ -1,0 +1,1 @@
+{"code":"I=input\r\nt=int(I())\r\nwhile t:\r\n\ta,b,x,y=map(int,I().split())\r\n\tprint(2*x-a,2*y-b)\r\n\tt-=1","lang":2}

@@ -1,0 +1,1 @@
+{"code":"def f(n):\r\n\t\r\n\tx = n \/\/ 2\r\n\ty = 1\r\n\tfor i in range(n \/\/ 2):\r\n\t\tprint(x * ' ' + y * '*')\r\n\t\ty += 2\r\n\t\tx -= 1\r\n\tprint('*' * n)\r\n\ty = 1\r\n\tx = n - 2\r\n\tfor i in range(n \/\/ 2):\r\n\t\tprint(y * ' ' + x * '*')\r\n\t\ty += 1\r\n\t\tx -= 2\r\n\r\nn = int(input())\r\nif n % 2 == 0:\r\n\tprint(-1)\r\nelse:\r\n\tf(n)","lang":2}

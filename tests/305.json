@@ -1,0 +1,1 @@
+{"code":"global t\r\nt = []\r\ndef f(s, n):\r\n\t\r\n\tif len(s) == n:\r\n\t\tc = s\r\n\t\tfor i in range(n\/\/2):\r\n\t\t\tc = c.replace('()', '')\r\n\t\tglobal t\r\n\t\tif len(c) == 0: t += [s]\r\n\t\treturn ;\r\n\t\r\n\tfor i in '()':\r\n\t\t\r\n\t\tf(s + i, n)\r\n\r\nf('', int(input())*2)\r\nt = t[::-1]\r\nfor i in t:\r\n\tprint(i)","lang":2}

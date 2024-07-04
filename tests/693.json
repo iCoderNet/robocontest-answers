@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\narr = list(map(str,input().split()))\r\nb = []\r\n\r\nfor i in arr:\r\n\tif len(i) > n:\r\n\t\tprint(i[::-1],end=' ')\r\n\telse:\r\n\t\tprint(i,end=' ')","lang":2}

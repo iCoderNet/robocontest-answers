@@ -1,0 +1,1 @@
+{"code":"n, m = map(int,input().split())\r\narr = list(map(int,input().split()))\r\nfor i in range(m):\r\n\tarr.sort()\r\n\tarr[0] += 1\r\nmod = int(1e9 + 7)\r\np = 1\r\nfor i in arr:\r\n\tp = (p * i) % mod\r\nprint(p)","lang":2}

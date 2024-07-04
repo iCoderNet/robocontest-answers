@@ -1,0 +1,1 @@
+{"code":"#include<bits\/stdc++.h>\r\n#define int long long\r\nusing namespace std;\r\n\r\nint s, res,  mod = 1e9+7;\r\n\r\nsigned main()\r\n{\r\n  int n;\r\n  cin >> n;\r\n  s = n;\r\n  \r\n  for (int k = n-1; k >= 1; k--) {\r\n  s = (s * k) % mod;\r\n    res = (res + s) % mod;\r\n  }\r\n  cout << res;\r\n  return 0;\r\n}","lang":4}

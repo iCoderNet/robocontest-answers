@@ -1,0 +1,1 @@
+{"code":"def solve(arr, st):\r\n\r\n\tmy_abs = 26 * [0]\r\n\r\n\tfor i in st:\r\n\t\tx = ord(i) - 97\r\n\t\tmy_abs[x] = arr[x]\r\n\r\n\treturn max(my_abs) * len(st);\r\n\r\narr = list(map(int,input().split()))\r\nst = input()\r\n\r\nprint(solve(arr, st))","lang":2}

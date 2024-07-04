@@ -1,0 +1,1 @@
+{"code":"n, r = map(int,input().split())\r\na, b, c = map(int,input().split())\r\n\r\nres = 0\r\nfor i in range(n):\r\n    x, y = map(int,input().split())\r\n    if r*r\/36 >= x*x+y*y: res += c\r\n    elif r*r\/16 >= x*x+y*y: res += b\r\n    elif r*r\/4 >= x*x+y*y: res += a\r\nprint(res)","lang":2}

@@ -1,0 +1,1 @@
+{"code":"from math import *\r\nt = int(input())\r\nwhile t > 0:\r\n\ta, b, c = map(int,input().split())\r\n\tif c % gcd(a, b)==0 and max(a,b) >= c:\r\n\t\tprint('YES')\r\n\telse:\r\n\t\tprint('NO')\r\n\tt -= 1","lang":2}

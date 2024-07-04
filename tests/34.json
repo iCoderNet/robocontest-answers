@@ -1,0 +1,1 @@
+{"code":"#include<bits\/stdc++.h>\r\nusing namespace std;\r\nint main()\r\n{\r\n    long long a, b;\r\n    scanf(\"%d %d\",&a,&b);\r\n    long long ans = 2 % b;\r\n    while (a--){\r\n        ans = (ans * ans) % b;\r\n    }\r\n    printf(\"%d\",ans);\r\n}","lang":4}

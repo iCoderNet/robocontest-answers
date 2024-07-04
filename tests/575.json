@@ -1,0 +1,1 @@
+{"code":"global mx;\r\nmx = -1e9\r\ndef solve(n, k, r):\r\n\tif len(n) == k:\r\n\t\tglobal mx\r\n\t\ttry:\r\n\t\t\tif mx < eval(n):\r\n\t\t\t\tmx = eval(n)\r\n\t\texcept ZeroDivisionError:\r\n\t\t\treturn\r\n\t\treturn ;\r\n\tfor i in '+-*\/':\r\n\t\tsolve(n[:r] + i + n[r:], k, r + 2)\r\n\r\nn = input()\r\nsolve(n, len(n) * 2 - 1, 1)\r\nprint(mx)","lang":2}

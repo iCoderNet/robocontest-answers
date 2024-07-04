@@ -1,0 +1,1 @@
+{"code":"from math import *\r\n\r\ndef solve(n):\r\n\t\r\n\tarr = [0, 0, 0, 0, 1, 1, 2, 3, 5, 6, 9, 11]\r\n\tm = n % 12\r\n\tif m % 2 == 0:\r\n\t\treturn (n**3+3*n**2)\/\/144+arr[m]-(m**3+3*m**2)\/\/144;\r\n\treturn (n**3+3*n**2-9*n)\/\/144+arr[m]-(m**3+3*m**2-9*m)\/\/144;\r\n\r\nn = int(input())\r\nprint(solve(n))","lang":2}

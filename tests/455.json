@@ -1,0 +1,1 @@
+{"code":"def solve(n):\r\n\r\n\ttry:\r\n\t\tprint(f\"{eval(n):.1f}\",end=' ')\r\n\texcept ZeroDivisionError:\r\n\t\tprint(\"none\", end=' ')\r\n\r\n\tn = n.replace('*', ')*(')\r\n\tn = n.replace('\/', ')\/(')\r\n\tn = '(' + n + ')'\r\n\ttry:\r\n\t\tprint(f\"{eval(n):.1f}\")\r\n\texcept ZeroDivisionError:\r\n\t\tprint(\"none\")\r\n\r\n\r\n\r\nn = input()\r\nsolve(n)","lang":2}

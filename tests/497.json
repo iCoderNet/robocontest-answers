@@ -1,0 +1,1 @@
+{"code":"def solve():\r\n    w = input()\r\n    if int(w) < 10:\r\n        return w\r\n    if w == w[::-1]:\r\n        return w\r\n\r\n    n = len(w)\r\n    if n % 2 == 0:\r\n        m = n \/\/ 2\r\n        return w[:m] + w[:m][::-1]\r\n    m = n\/\/2 + 1\r\n    return w[:m] + w[:m-1][::-1]\r\n\r\n\r\nprint(solve())","lang":2}

@@ -1,0 +1,1 @@
+{"code":"for I in range(int(input())):\r\n  print(1-int(input())%2)","lang":2}

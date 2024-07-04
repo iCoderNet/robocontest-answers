@@ -1,0 +1,1 @@
+{"code":"#include <iostream>\r\nusing namespace std;\r\nint main()\r\n{\r\n  int a=1,b=1000000000,m;\r\n  char c;\r\n  while (c != '='){\r\n      m=a+(b-a)\/2;\r\n      cout<<m<<endl;\r\n      \/\/cout.flush(); \r\n      cin>>c;\r\n      if(c=='>')\r\n         b=m-1;\r\n      else   \r\n         a=m+1;\r\n  }\r\n  \r\n}","lang":4}

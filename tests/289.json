@@ -1,0 +1,1 @@
+{"code":"n, k = map(int,input().split())\r\nif k == 1:\r\n\tprint(n)\r\nelse:\r\n\tx, y = n - 1, k - 1\r\n\tx, y = x \/\/ y, x % y\r\n\tprint((k - 1) * x * (x - 1) \/\/ 2 + x * (y + 1))","lang":2}

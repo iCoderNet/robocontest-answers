@@ -1,0 +1,1 @@
+{"code":"from math import *\r\nt = int(input())\r\nfor i in range(t):\r\n  n=int(isqrt(int(input())))\r\n  print(\"Yakka tartibda\" if n%2 else \"Jamoaviy\")","lang":2}

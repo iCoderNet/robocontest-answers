@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\nif n % 4 == 0: print(n \/\/ 2)\r\nelse: print(-1)","lang":2}

@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\na = bin(n)[2:]\r\na = a.replace('1', '2')\r\na = a.replace('0', '1')\r\na = a.replace('2', '0')\r\nm = int(a, 2)\r\nprint(m)","lang":2}

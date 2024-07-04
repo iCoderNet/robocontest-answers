@@ -1,0 +1,1 @@
+{"code":"l, r = 0, 1000000\r\nn = int(input())\r\nwhile l+1 < r:\r\n\tx = (l+r) \/\/ 2\r\n\tif x*(x+1)\/\/2>(x+n)*(n-x+1)\/\/2:\r\n\t\tr = x\r\n\telse:\r\n\t\tl = x\r\nif l*(l+1)\/\/2==(l+n)*(n-l+1)\/\/2:\r\n\tprint(l)\r\nelse:\r\n\tprint(-1)","lang":2}

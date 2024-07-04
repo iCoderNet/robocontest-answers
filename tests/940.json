@@ -1,0 +1,1 @@
+{"code":"def solve(dp, n):\r\n\tfor i in range(504, -1, -1):\r\n\t\tif dp[i] == 2:\r\n\t\t\treturn i\r\n\treturn -1\r\n\r\nn = int(input())\r\na = list(map(int,input().split()))\r\ndp = [0] * 505\r\nfor i in a:\r\n\tdp[i] += 1\r\n\r\nprint(solve(dp, n))","lang":2}

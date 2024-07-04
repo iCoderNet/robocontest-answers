@@ -1,0 +1,1 @@
+{"code":"def f(s):\r\n\tif len(s) % 2 == 0:\r\n\t\treturn 0\r\n\tfor i in s:\r\n\t\tif int(i) % 2 == 0:\r\n\t\t\treturn 0\r\n\treturn 1\r\nn = input()\r\nprint('YES' if f(n)==1 else 'NO')","lang":1}

@@ -1,0 +1,1 @@
+{"code":"import os\r\nimport math\r\n\r\na, b, c = [], [], ''\r\nfor i in input() + '+':\r\n    if i in '+-*\/':\r\n        b.append(i.replace('\/', '\/\/'))\r\n        a.append(str(int(c, 2)))\r\n        c = ''\r\n    else:\r\n        c += i\r\nc = a[0]\r\nfor i in range(1, len(b)):\r\n    c += b[i - 1] + a[i]\r\nprint(bin(int(eval(c)))[2:])","lang":2}

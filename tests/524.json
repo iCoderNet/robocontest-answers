@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\na = list()\r\nk = 0\r\nfor i in range(n):\r\n    x = input()\r\n    a.append([x[0], x[1]])\r\nprint(n)","lang":2}

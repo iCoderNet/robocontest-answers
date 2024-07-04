@@ -1,0 +1,1 @@
+{"code":"s = input()\r\nmx, l = 0, 0\r\nfor i in range(len(s)):\r\n\tif s[i] == '0':\r\n\t\tl += 1\r\n\telse:\r\n\t\tmx = max(mx, l)\r\n\t\tl = 0\r\nprint(max(mx, l))","lang":2}

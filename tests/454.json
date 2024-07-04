@@ -1,0 +1,1 @@
+{"code":"def solve(k, n):\r\n\tif k == 0: return 0\r\n\tif n == 10: return k\r\n\r\n\ts = 'ABCDEF'\r\n\tans = \"\"\r\n\r\n\twhile k > 0:\r\n\t\tx = k % n;\r\n\t\tk \/\/= n\r\n\r\n\t\tif x < 10:\r\n\t\t\tans += str(x)\r\n\t\telse:\r\n\t\t\tans += s[x - 10]\r\n\treturn ans[::-1]\r\n\r\nk, n = map(int,input().split())\r\nprint(solve(k, n))","lang":2}

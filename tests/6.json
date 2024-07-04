@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\nif n % 400 == 0 or (n % 4 == 0 and n % 100 != 0):\r\n    print(\"%02d\/%02d\/%04d\" % (12,9,n))\r\nelse:\r\n    print(\"%02d\/%02d\/%04d\" % (13,9,n))","lang":2}

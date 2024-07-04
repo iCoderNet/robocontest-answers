@@ -1,0 +1,1 @@
+{"code":"x1,y1=map(int,input().split())\r\nx2,y2=map(int,input().split())\r\nx=abs(x1-x2)\r\ny=abs(y1-y2)\r\nprint((x*x\/\/4)*(y*y\/\/4))","lang":2}

@@ -1,0 +1,1 @@
+{"code":"from math import *\r\nxx = int(input())\r\nprint(int(log2(xx)))","lang":2}

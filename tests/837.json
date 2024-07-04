@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\nif n < 2:\r\n  print('murakkab')\r\nelse:\r\n  print('tub')","lang":2}

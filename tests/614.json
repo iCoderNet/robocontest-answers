@@ -1,0 +1,1 @@
+{"code":"v,a,b,c=map(int,input().split())\r\nv = v % (a + b + c)\r\nif v == 0:\r\n\tprint('Azim')\r\nelse:\r\n\tif v >= a:\r\n\t\tv -= a\r\n\t\tif v >= b:\r\n\t\t\tv -= b\r\n\t\t\tprint('Akbar')\r\n\t\telse:\r\n\t\t\tprint('Aziz')\r\n\t\r\n\telse:\r\n\t\tprint('Azim')","lang":2}

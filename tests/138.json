@@ -1,0 +1,1 @@
+{"code":"def f(x):\r\n    return x ** 5 + 8 * x ** 4 - 5 * x ** 3 + 3 * x ** 2 + x - 12;\r\nx = int(input())\r\nprint(f(x))","lang":2}

@@ -1,0 +1,1 @@
+{"code":"#include<bits\/stdc++.h>\r\nusing namespace std;\r\nmap<int,int>mp;\r\nint tmp,i,ans;\r\nstring s;\r\nint main(){\r\n    mp[0]=1;\r\n    for(cin >> s;s[i];i++){\r\n        if(s[i]=='0')tmp++;\r\n        else tmp--;\r\n        if(!mp[tmp])mp[tmp]=i+2;\r\n            ans=max(ans,i-mp[tmp]+2);\r\n    }\r\n    cout<<ans;\r\n    return 0;\r\n}","lang":4}

@@ -1,0 +1,1 @@
+{"code":"\/\/fpc 3.0.0\r\n\r\nprogram niqob1;\r\nvar \r\n    n, k : integer;\r\nbegin\r\n    readln(n, k);\r\n    writeln(k mod n);\r\nend.","lang":9}

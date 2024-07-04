@@ -1,0 +1,1 @@
+{"code":"n=gets.to_i\r\np (100+n)**(n%2+2)","lang":12}

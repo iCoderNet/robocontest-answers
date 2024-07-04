@@ -1,0 +1,1 @@
+{"code":"x, y, n = map(int,input().split())\r\nmod = 10 ** 9 + 7\r\n\r\nif x == y and x == 0:\r\n\tprint(0)\r\nelse:\r\n\tfor i in range(n - 2):\r\n\t\tc = x\r\n\t\tx = y\r\n\t\ty = (c + x * x) % mod\r\n\tprint(y)","lang":2}

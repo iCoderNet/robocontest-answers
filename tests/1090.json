@@ -1,0 +1,1 @@
+{"code":"n=int(input())\r\na=list(map(int,input().split()))\r\nprint(f'{(sum(a)-min(a)-max(a))\/(n-2):.5f}')","lang":2}

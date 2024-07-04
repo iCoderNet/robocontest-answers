@@ -1,0 +1,1 @@
+{"code":"print('Yes' if sum([int(x) for x in input()])%3 == 0 else 'No')","lang":2}

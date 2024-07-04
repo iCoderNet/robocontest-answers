@@ -1,0 +1,1 @@
+{"code":"n,k=map(int,input().split())\r\na=list(map(int,input().split()))\r\ni=0\r\n\r\nwhile k>0:\r\n  if a[i]==0:\r\n    print(i+1,end=' ')\r\n    k-=1\r\n  i+=1","lang":2}

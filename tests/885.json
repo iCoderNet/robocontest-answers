@@ -1,0 +1,1 @@
+{"code":"def solve(n):\r\n\tp = 1\r\n\tprint(p, end = ' ')\r\n\r\n\tfor i in range(1, n + 1):\r\n\t\tk = (p * (n - i + 1)) \/\/ i\r\n\t\tprint(k % 1000000007, end = ' ')\r\n\t\tp = k\r\n\tprint()\r\n\r\nn = int(input())\r\n\r\nfor i in range(n+1):\r\n\tsolve(i)","lang":2}

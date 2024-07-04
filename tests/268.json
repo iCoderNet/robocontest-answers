@@ -1,0 +1,1 @@
+{"code":"def solve(a, b, c):\r\n\tx = abs(a - c)\r\n\ty = abs(b - c)\r\n\tif x == y: return 'sichqon';\r\n\telif x < y: return '1-mushuk';\r\n\treturn '2-mushuk';\r\na, b, c = map(int,input().split())\r\nprint(solve(a, b, c))","lang":2}

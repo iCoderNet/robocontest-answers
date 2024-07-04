@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\nif n == 1:\r\n  print(-1)\r\nelse:\r\n  print(1,n,1)","lang":2}

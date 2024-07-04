@@ -1,0 +1,1 @@
+{"code":"from random import *\r\nfrom math import *\r\n\r\ndef check(a, b):\r\n    n = int(a ** 0.5)\r\n\r\n    if b >= n * (n + 1):\r\n        return \"Ali\"\r\n    return \"Vali\"\r\na, b = map(int,input().split())\r\nprint(check(a, b))","lang":2}

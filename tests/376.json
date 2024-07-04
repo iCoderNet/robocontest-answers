@@ -1,0 +1,1 @@
+{"code":"arr = 2 * ['Winter'] + 3 * ['Spring'] + 3 * ['Summer'] + 3 * ['Autumn'] + ['Winter']\r\nn = int(input())\r\nif n > 12: print('Error')\r\nelse: print(arr[n - 1])","lang":2}

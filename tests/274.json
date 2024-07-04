@@ -1,0 +1,1 @@
+{"code":"def solve(arr, n, k):\r\n\t\r\n\tarr[k] = 0\r\n\treturn int(input()) - sum(arr) \/\/ 2 \r\n\r\nn, k = map(int,input().split())\r\narr = list(map(int,input().split()))\r\nprint(solve(arr, n, k))","lang":2}

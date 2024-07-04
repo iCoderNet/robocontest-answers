@@ -1,0 +1,1 @@
+{"code":"#include<bits\/stdc++.h>\r\nusing namespace std;\r\nint main(){ios_base::sync_with_stdio(0);cin.tie(NULL);string w;int i,s=0;cin>>w;for(i=0;i<w.length();i+=1)s+=(w[i]-48);cout << s;}","lang":4}

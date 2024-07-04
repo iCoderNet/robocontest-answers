@@ -1,0 +1,1 @@
+{"code":"a = int(input())\r\nb = int(input())\r\nprint(a + b)","lang":2}

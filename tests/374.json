@@ -1,0 +1,1 @@
+{"code":"arr = list(map(int,input().split()))\r\nprint(max(arr) - min(arr))","lang":2}

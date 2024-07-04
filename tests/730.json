@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\narr = list(map(int,input().split()))\r\nx, y = 0, 0\r\nfor i in range(n):\r\n\tif arr[i] % 2 == 0:\r\n\t\tx += 1\r\n\telse:\r\n\t\ty += 1\r\nif x == 1:\r\n\tprint(*[x + 1 for x in range(n) if arr[x] % 2 == 0])\r\nelse:\r\n\tprint(*[x + 1 for x in range(n) if arr[x] % 2 == 1])","lang":2}

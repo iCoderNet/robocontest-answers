@@ -1,0 +1,1 @@
+{"code":"n, k = map(int,input().split())\r\na = [x+1 for x in range(n)]\r\nm = 0\r\nwhile len(a) > 1:\r\n\tm = (m + k - 1) % len(a)\r\n\ta.pop(m)\r\nprint(*a)","lang":2}

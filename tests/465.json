@@ -1,0 +1,1 @@
+{"code":"from math import *\r\nn = int(input())\r\nprint(floor((sqrt(1+8*n)-1)\/2))","lang":2}

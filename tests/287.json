@@ -1,0 +1,1 @@
+{"code":"from math import *\r\nn = int(input())\r\n#a(n) = floor(log_4(n)) + 1\r\nk = floor(log(n) \/ log(4))\r\nprint(k + 1)","lang":2}

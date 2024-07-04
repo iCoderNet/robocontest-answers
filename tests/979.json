@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\na = list(map(int,input().split()))\r\nfor i in range(int(input())):\r\n  x, y = map(int,input().split())\r\n  if a[x-1]%2==0 and a[x-1] != 0:\r\n    print('Toq' if x < n and a[x] == 0 and x < y else 'Juft')\r\n  elif a[x-1] == 0:\r\n    print('Juft')\r\n  else:\r\n    print('Toq')","lang":2}

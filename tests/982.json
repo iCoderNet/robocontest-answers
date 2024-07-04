@@ -1,0 +1,1 @@
+{"code":"s = input()\r\na = ['RGB','RBG','GRB','GBR','BRG','BGR']\r\nb = 99999999999\r\nfor i in range(6):\r\n    ans = 0\r\n    for j in range(len(s)):\r\n        if s[j]!=a[i][j%3]:\r\n            ans+=1\r\n    b = min(b, ans)\r\nprint(b)","lang":2}

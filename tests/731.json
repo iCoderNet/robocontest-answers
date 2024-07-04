@@ -1,0 +1,1 @@
+{"code":"s = input().lower()\r\nfor i in 'aoyeui':\r\n\ts = s.replace(i, '')\r\nprint('.' + '.'.join(s))","lang":2}

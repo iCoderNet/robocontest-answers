@@ -1,0 +1,1 @@
+{"code":"def solve(a, b):\r\n\tx = y = 1\r\n\tfor i in range(a):\r\n\t\tx *= 2\r\n\tfor i in range(b):\r\n\t\ty *= 2\r\n\tif x > y:\r\n\t\tx, y = y, x\r\n\treturn [x, y]\r\na, b = map(int,input().split())\r\nprint(*solve(a, b))","lang":2}

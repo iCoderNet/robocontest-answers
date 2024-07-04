@@ -1,0 +1,1 @@
+{"code":"def solve():\r\n  t = 0\r\n  a, b, c, d, k = map(int,input().split())\r\n  for x in range(-100000, 100000):\r\n    if a*x**4+b*x**3+c*x**2+d*x+k==0:\r\n      t = 1\r\n      print(x,end=' ')\r\n  if t == 0:\r\n    print(\"U kim\")\r\nsolve()","lang":2}

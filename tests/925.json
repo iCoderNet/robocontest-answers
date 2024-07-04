@@ -1,0 +1,1 @@
+{"code":"def s(x):\r\n\treturn sum([int(i) for i in str(x)])\r\n\r\ndef solve(n):\r\n\tk = int(n ** 0.5)\r\n\tfor i in range(k, max(k - s(n),0), -1):\r\n\t\tif n - i**2 - s(i) * i == 0:\r\n\t\t\treturn i\r\n\treturn -1\r\nprint(solve(int(input())))","lang":2}

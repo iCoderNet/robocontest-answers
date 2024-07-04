@@ -1,0 +1,1 @@
+{"code":"#include <stdio.h>\r\n#include <stdlib.h>\r\nint main(){\r\n    FILE *f = fopen(\"open0688.txt\", \"r\");\r\n    if(f == nullptr){\r\n        system(\"type nul>open0688.txt\");\r\n        printf(\"Hasan\");\r\n    }\r\n    else{\r\n        fclose(f);\r\n        system(\"del \/f open0688.txt\");\r\n        printf(\"Husan\");\r\n    }\r\n    return 0;\r\n}","lang":4}

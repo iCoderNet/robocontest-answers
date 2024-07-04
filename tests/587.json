@@ -1,0 +1,1 @@
+{"code":"#include <bits\/stdc++.h>\r\nusing namespace std;\r\n\r\nint main() {\r\n    \r\n    long long n, res = 1;\r\n    cin >> n;\r\n    \r\n    while (n > 4) {\r\n        res *= 3; \r\n        n -= 3;\r\n    }\r\n    cout << res * n << endl;\r\n    return 0;\r\n}","lang":4}

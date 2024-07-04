@@ -1,0 +1,1 @@
+{"code":"k, n = map(int,input().split())\r\nprint(((n ** 2 * (k - 2) - n * (k - 4)) \/\/ 2) % 1000000007)","lang":2}

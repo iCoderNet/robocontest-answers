@@ -1,0 +1,1 @@
+{"code":"a, b = [], []\r\n\r\nn = int(input())\r\n\r\nfor i in range(n):\r\n\t\r\n\tx, y = map(str,input().split())\r\n\r\n\ta.append(x)\r\n\tb.append(int(y))\r\n\r\nk = int(input())\r\n\r\narr = []\r\n\r\nfor i in range(k):\r\n\r\n\tx = input().strip()\r\n\ty = 0\r\n\t\r\n\tfor j in range(n):\r\n\t\tif x == a[j]:\r\n\t\t\ty += b[j]\r\n\t\r\n\tprint(x,y)","lang":2}

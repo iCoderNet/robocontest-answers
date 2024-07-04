@@ -1,0 +1,1 @@
+{"code":"from math import *\r\n\r\ndef solve(n, m):\r\n\r\n\tmod = 10 ** 9 + 7;\r\n\r\n\tif m == 1:\r\n\t\treturn 1;\r\n\tx = factorial(n + m - 1);\r\n\ty = factorial(n) * factorial(m - 1);\r\n\treturn (x \/\/ y) % mod;\r\n\r\nt = int(input())\r\n\r\nfor x in range(t):\r\n\tn, m = map(int,input().split())\r\n\tprint(solve(n, m))","lang":2}

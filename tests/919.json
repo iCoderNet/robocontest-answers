@@ -1,0 +1,1 @@
+{"code":"def solve(n):\r\n\t\r\n\tfor i in range(max(1, n-100), n+100):\r\n\t\tif n == i+bin(i)[2:].count('1'):\r\n\t\t\treturn i\r\n\treturn -1\r\n\r\nprint(solve(int(input())))","lang":2}

@@ -1,0 +1,1 @@
+{"code":"def solve(n):\r\n    x = bin(n)[2:].count('1')\r\n    y = bin(n)[2:].count('0')\r\n    if y == 0:\r\n        return -1\r\n    return x \/\/ y\r\nn = int(input())\r\nprint(solve(n))","lang":2}

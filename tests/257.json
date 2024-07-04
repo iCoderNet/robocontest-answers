@@ -1,0 +1,1 @@
+{"code":"def solve(myst):\r\n\r\n    myst = myst.strip('0')\r\n    if '0' in myst:\r\n        return 'NO'\r\n    return 'YES'\r\n\r\nprint(solve(input()))","lang":2}

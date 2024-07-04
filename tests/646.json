@@ -1,0 +1,1 @@
+{"code":"d = int(input())\r\na, b, c = map(int,input().split())\r\nx, y, z, k = map(int,input().split())\r\ns1 = a if d <= b else a + c * (d - b)\r\ns2 = d \/ x\r\ns3 = y + s2 * z + k * d\r\nprint('online' if s1 <= s3 else 'ofline deb')","lang":2}

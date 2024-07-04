@@ -1,0 +1,1 @@
+{"code":"n, q = map(int,input().split())\r\na = list(map(int,input().split()))\r\nb = [0] * n\r\nfor i in range(q):\r\n    l, r = map(int,input().split())\r\n    b[l-1] += 1\r\n    if r < n:\r\n        b[r] -= 1\r\n\r\nfor i in range(1, n):\r\n    b[i] += b[i-1]\r\n\r\ns = 0\r\na.sort()\r\nb.sort()\r\nfor i in range(n):\r\n    s += a[i] * b[i]\r\nprint(s)","lang":2}

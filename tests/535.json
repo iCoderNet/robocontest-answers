@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\nprint(n if n<3 else n*(n-1)*(n-2))","lang":2}

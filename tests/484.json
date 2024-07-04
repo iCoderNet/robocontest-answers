@@ -1,0 +1,1 @@
+{"code":"def f(k):\r\n\ta = sum([int(x) for x in str(k)])\r\n\tif a > 9: return f(a)\r\n\treturn a\r\ndef solve():\r\n\tn, m = map(int,input().split())\r\n\tfor i in range(m, 0, -1):\r\n\t\tif n == f(i):\r\n\t\t\treturn i\r\n\treturn -1\r\nprint(solve())","lang":2}

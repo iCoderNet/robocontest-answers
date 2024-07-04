@@ -1,0 +1,1 @@
+{"code":"a = list(map(int,input().split()))\r\ns = int(input())\r\nif s <= sum(a): print(0)\r\nelse: print(s - sum(a))","lang":2}

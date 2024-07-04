@@ -1,0 +1,1 @@
+{"code":"def solve(arr, s):\r\n\r\n\tfor i in range(6):\r\n\t\tfor j in range(6):\r\n\t\t\tfor k in range(6):\r\n\t\t\t\tif i != j and i != k and j != k and (arr[i] + arr[j] + arr[k]) == s - (arr[i] + arr[j] + arr[k]):\r\n\t\t\t\t\treturn 'yes'\r\n\treturn 'no'\r\n\r\narr = list(map(int,input().split()))\r\nsm = sum(arr)\r\n\r\nprint(solve(arr, sm))","lang":2}

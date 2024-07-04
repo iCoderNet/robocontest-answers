@@ -1,0 +1,1 @@
+{"code":"a, b, c = map(int, input().split())\r\nn, k, m = map(int, input().split())\r\nx, y, z = map(int, input().split())\r\ns1 = a + b + c - min(a, b, c) + 1\r\ns2 = n + k + m - min(n, k, m) + 1\r\ns3 = x + z + y - min(x, y, z) + 1\r\nprint(s1 + s2 + s3)","lang":2}

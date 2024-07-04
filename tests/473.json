@@ -1,0 +1,1 @@
+{"code":"from math import *\r\ndef solve(n):\r\n\r\n\tm = floor(log(4 * n + 1) \/\/ log(5))\r\n\ts = 0\r\n\tfor j in range(m):\r\n\t\tb = floor((4 * n + 1 - 5 ** m) \/\/ (4 * 5 ** j))\r\n\t\ts = s + ((2 * b + 1) % 10) * 10 ** j\r\n\treturn s\r\n\r\n\r\nprint(solve(int(input())))","lang":2}

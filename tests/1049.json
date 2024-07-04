@@ -1,0 +1,1 @@
+{"code":"print('omadsiz chipta' if '13' in input() else 'omadli chipta')","lang":2}

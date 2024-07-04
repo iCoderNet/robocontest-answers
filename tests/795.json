@@ -1,0 +1,1 @@
+{"code":"from datetime import *\r\nfrom calendar import *\r\n \r\ndef f(d):\r\n    x = datetime.strptime(d, '%d %m %Y').weekday()\r\n    #print(x)\r\n    return ['Dushanba', 'Seshanba', 'Chorshanba', 'Payshanba', 'Juma', 'Shanba', 'Yakshanba'][x]\r\n \r\nd = input().replace(':', ' ')\r\nprint(f(d))","lang":2}

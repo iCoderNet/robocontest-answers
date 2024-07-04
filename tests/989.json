@@ -1,0 +1,1 @@
+{"code":"x, y = map(int,input().split())\r\nprint('Vali' if x > y else 'Ali')","lang":2}

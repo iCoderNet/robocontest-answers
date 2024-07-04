@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\nprint(n*(3*n-1)\/\/2)","lang":2}

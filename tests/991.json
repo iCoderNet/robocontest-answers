@@ -1,0 +1,1 @@
+{"code":"s = input()\r\nx, y = [int(x) for x in s[1:-1:2]], [int(x) for x in s[0:-1:2]]     \r\nprint('Yes' if sum(x)-sum(y)==0 or (sum(x)-sum(y))%11==0 else 'No')","lang":2}

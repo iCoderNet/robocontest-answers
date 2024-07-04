@@ -1,0 +1,1 @@
+{"code":"a, b = map(int,input().split())\r\nif (a % b == 0):\r\n\tprint(a)\r\nelse:\r\n\tif a < b:\r\n\t\tprint(b)\r\n\telse:\r\n\t\tprint((a \/\/ b) * b + b)","lang":2}

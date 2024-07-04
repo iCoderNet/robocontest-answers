@@ -1,0 +1,1 @@
+{"code":"n, k = int(input()), int(input())\r\nprint(n \/\/ k + 1 if n % k else n \/\/ k)","lang":2}

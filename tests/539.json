@@ -1,0 +1,1 @@
+{"code":"k = int(input())\r\nn, cnt = 1, 0\r\nss = ''\r\nwhile True:\r\n    cnt += len(str(n))\r\n    if cnt >= k:\r\n        x = cnt - k\r\n        print(str(n)[::-1][x])\r\n        break\r\n    n += 1","lang":2}

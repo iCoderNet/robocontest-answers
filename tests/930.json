@@ -1,0 +1,1 @@
+{"code":"for i in range(int(input())):\r\n\tk = input()\r\n\tprint('NO')","lang":2}

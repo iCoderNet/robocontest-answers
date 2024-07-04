@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\nmod = (10 ** 9 + 7) * 6\r\nprint(((n * (n + 1) * (n + 2)) % mod) \/\/ 6)","lang":2}

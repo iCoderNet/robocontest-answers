@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\nfor i in range(1000):\r\n\tif n == i+i%100:\r\n\t\tprint(i, end = ' ')","lang":2}

@@ -1,0 +1,1 @@
+{"code":"from math import *\r\nn,m=map(int,input().split())\r\nx = gcd(n,m)\r\ns = 1\r\ni = 2\r\nwhile i*i<=x:\r\n  p = 1\r\n  while x%i==0:\r\n    p+=1\r\n    x\/\/=i \r\n  s *= p\r\n  i+=1\r\nif x > 1: s*=2\r\nprint(s)","lang":2}

@@ -1,0 +1,1 @@
+{"code":"n = int (input () )\r\nif ( n % 3  == 1 or n % 9 == 0) :\r\n  print( 'Ha' )\r\nelse:\r\n  print( \"Yo'q\" )\r\n#55555555555555555555555555555555","lang":2}

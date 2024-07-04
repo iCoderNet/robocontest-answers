@@ -1,0 +1,1 @@
+{"code":"a, c, k = map(int,input().split())\r\n\r\nx = int(a \/\/ c) * c\r\ncnt = a \/\/ c\r\nif a - x >= k: cnt += 1\r\nif c == 1 or c <= k: cnt = 0\r\nprint(cnt)","lang":2}

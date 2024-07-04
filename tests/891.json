@@ -1,0 +1,1 @@
+{"code":"def f(s):\r\n\tk = 0\r\n\tkey = 0\r\n\tfor i in s:\r\n\t\tif i == '(':\r\n\t\t\tk += 1\r\n\t\t\tkey = 1\r\n\t\tif i == ')':\r\n\t\t\tk -= 1\r\n\t\t\tif k < 0:\r\n\t\t\t\treturn \"FALSE\"\r\n\tif k != 0:\r\n\t\treturn \"FALSE\"\r\n\tif key == 0:\r\n\t\treturn \"FALSE\"\r\n\treturn \"TRUE\"\r\nprint(f(input()))","lang":2}

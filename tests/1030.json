@@ -1,0 +1,1 @@
+{"code":"a, b, x = input().split()\r\np = print\r\na = int(a)\r\nb = int(b)\r\nif x == '+': p(a-1,b+1)\r\nif x == '-': p(a-1,b-1)\r\nif x == '*': p(1,a*b)\r\nif x == '\/': p(2*a,2*b)","lang":2}

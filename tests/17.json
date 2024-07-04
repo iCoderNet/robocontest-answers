@@ -1,0 +1,1 @@
+{"code":"def check(k):\r\n\r\n\ts, n = 0, k\r\n\r\n\twhile k != 0:\r\n\t\ts = s + k % 10\r\n\t\tk \/\/= 10\r\n\r\n\tif n % (s * s) == 0:\r\n\t\treturn True\r\n\treturn False\r\n\r\nn = int(input())\r\n\r\ni, k = 1, 0\r\n\r\nwhile True:\r\n\tif check(i) == True:\r\n\t\tk += 1\r\n\t\tif k == n: break;\r\n\ti = i + 1\r\nprint(i)","lang":2}

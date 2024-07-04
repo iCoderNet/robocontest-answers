@@ -1,0 +1,1 @@
+{"code":"print('YNEOS'[1-sum([int(i) for i in input()])%2:5:2])","lang":2}

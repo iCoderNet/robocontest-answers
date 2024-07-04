@@ -1,0 +1,1 @@
+{"code":"def solve(n):\r\n\tk = 1\r\n\tif n[0] == '-':\r\n\t\tn, k = n[1:], -1\r\n\tif len(n) == 1:\r\n\t\treturn '-' + n\r\n\tif n[:2] == '0x':\r\n\t\treturn k * int(n, 16)\r\n\tif n[0] == '0':\r\n\t\treturn k * int(n, 8)\r\n\treturn k * int(n)\r\n\r\nprint(solve(input()))","lang":2}

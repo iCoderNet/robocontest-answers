@@ -1,0 +1,1 @@
+{"code":"p = [0] * 100001\r\np[0] = p[1] = 1\r\nl, r = map(int,input().split())\r\ni = 2\r\nwhile i * i <= 100000:\r\n\tj = i * i\r\n\twhile j <= 100000:\r\n\t\tp[j] = 1\r\n\t\tj += i\r\n\ti += 1\r\nfor i in range(l, r+1):\r\n\tif p[i] == 0:\r\n\t\tprint(i, end = ' ')","lang":2}

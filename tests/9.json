@@ -1,0 +1,1 @@
+{"code":"#include <bits\/stdc++.h>\r\nusing namespace std;\r\nint a[101] = {0};\r\nint main()\r\n{\r\n    int n, m;\r\n    cin >> n;\r\n    for (int i = 0; i < n; i++) {\r\n        cin >> m; a[m]++;\r\n    }\r\n\r\n    for (int i = 0; i < 101; i++) {\r\n        if (a[i] == 1) {\r\n            return cout << i, 0;\r\n        }\r\n    }\r\n\r\n    return 0;\r\n}","lang":4}

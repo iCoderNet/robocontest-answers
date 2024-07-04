@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\na = [2,2]\r\nfor i in range(2,n):\r\n    a += [a[i-2] + a[i-1]]\r\nprint(a[n-1])","lang":2}

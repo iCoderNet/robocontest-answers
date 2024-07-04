@@ -1,0 +1,1 @@
+{"code":"def check(arr):\r\n\tfor i in arr:\r\n\t\tif i > 255:\r\n\t\t\treturn 'NO'\r\n\treturn 'YES'\r\narr = list(map(int,input().split('.')))\r\nprint(check(arr))","lang":2}

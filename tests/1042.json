@@ -1,0 +1,1 @@
+{"code":"n, m = map(int,input().split())\r\nprint(5*n+m-1)","lang":2}

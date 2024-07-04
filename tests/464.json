@@ -1,0 +1,1 @@
+{"code":"for i in range(int(input())):\r\n    s1 = input()\r\n    s2 = input()\r\n\r\n    a = [0] * 26\r\n\r\n    for i in s1:\r\n        a[ord(i) - 97] = 1\r\n\r\n    k = \"NO\"\r\n\r\n    for i in s2:\r\n        if a[ord(i) - 97] == 1:\r\n            k = \"YES\"\r\n            break\r\n    print(k)","lang":2}

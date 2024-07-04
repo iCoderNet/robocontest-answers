@@ -1,0 +1,1 @@
+{"code":"def gcd(a, b):\r\n\tif b == 0: return a\r\n\treturn gcd(b, a % b)\r\na, n, m = map(int,input().split())\r\nk = gcd(n, m)\r\nprint(pow(a, k, 10**9+7) - 1)","lang":2}

@@ -1,0 +1,1 @@
+{"code":"def solve(n, i):\r\n\tdef gcd(a, b):\r\n\t\tif b == 0: return a\r\n\t\treturn gcd(b, a % b)\t\r\n\twhile gcd(i, n-i-1) != 1:\r\n\t\ti += 1\r\n\treturn [i, n-i-1, 1]\r\nfor i in range(int(input())):\r\n\tprint(*solve(int(input()), 2))","lang":2}

@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\nprint(n \/\/ 2 - n if n % 2 else n \/\/ 2)","lang":2}

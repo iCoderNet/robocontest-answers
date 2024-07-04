@@ -1,0 +1,1 @@
+{"code":"n=int(input())\r\nr=21450\r\np=2710\r\n#summa\r\nprint(f\"{r*(n-p)\/(r*(n-p)+p*(r-n))*100:.2f} {p*(r-n)\/(r*(n-p)+p*(r-n))*100:.2f}\")","lang":2}

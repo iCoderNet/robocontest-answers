@@ -1,0 +1,1 @@
+{"code":"mod = 10 ** 9 + 7\r\na, n = map(int,input().split())\r\nprint(pow(a,n+1,mod))","lang":2}

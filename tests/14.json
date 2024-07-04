@@ -1,0 +1,1 @@
+{"code":"def function(n,k):\r\n    x = 10**9 + 7\r\n    p = 1\r\n    while n > 1:\r\n        if n % 2 ==1:\r\n            p = (p * k) % x\r\n        k = (k * k) % x\r\n        n \/\/= 2\r\n    return (k * p) % x\r\nn, k = map(int,input().split())\r\nif n == 0:\r\n    print(1)\r\nelse:\r\n    print(function(n,k+1))","lang":2}

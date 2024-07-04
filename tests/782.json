@@ -1,0 +1,1 @@
+{"code":"mod = 10**9+7\r\nprint(pow(5, int(input()),mod))","lang":2}

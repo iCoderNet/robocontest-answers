@@ -1,0 +1,1 @@
+{"code":"for i in range(int(input())):\r\n    print(bin(int(input()))[2:].count('1'))","lang":2}

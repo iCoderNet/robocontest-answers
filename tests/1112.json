@@ -1,0 +1,1 @@
+{"code":"def check(n, s):\r\n  for i in s:\r\n    if i=='0' or n%int(i)!=0:\r\n      return 0\r\n  return 1\r\ncnt = 0\r\nl,r=map(int,input().split())\r\nfor i in range(l,r+1):\r\n  if check(i, str(i)):\r\n    cnt+=1\r\nprint(cnt)","lang":2}

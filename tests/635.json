@@ -1,0 +1,1 @@
+{"code":"#include<iostream>\r\n#define s(x) scanf(\"%d\", &x)\r\n#define f(n) for (int i = 1; i <= n; i++)\r\n#define m 100001\r\nint d[m],p[m];\r\nint main() {\r\n\tint n; s(n);\r\n\tf(n) s(d[i]);\r\n\tf(n) p[d[d[d[d[i]]]]]=d[i];\r\n\tf(n) printf(\"%d\\n\",p[d[i]]);\r\n}","lang":4}

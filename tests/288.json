@@ -1,0 +1,1 @@
+{"code":"from math import *\r\nn = int(input()) - 1\r\nprint(floor(n\/2) * ceil(n \/ 2))","lang":2}

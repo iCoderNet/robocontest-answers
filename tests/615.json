@@ -1,0 +1,1 @@
+{"code":"x = int(input())\r\nk = x % 2\r\n\r\ns = 0\r\nwhile x != 0:\r\n    y = x % 10\r\n    if y % 2 == k:\r\n        s += y\r\n    x \/\/= 10\r\nprint(s)","lang":2}

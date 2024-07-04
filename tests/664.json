@@ -1,0 +1,1 @@
+{"code":"n, q = map(int,input().split())\r\na = list(map(int,input().split()))\r\nb = list(map(int,input().split()))\r\nfor i in range(q):\r\n\tx, y = map(int,input().split())\r\n\ts1, s2, res = 0, 0, 0\r\n\tfor j in range(x-1, y):\r\n\t\ts1 += a[j]\r\n\t\ts2 += b[j]\r\n\t\tres += max(s1, s2)\r\n\tprint(res)","lang":2}

@@ -1,0 +1,1 @@
+{"code":"def solve(n):\r\n\tif n == 0: return 1;\r\n\tmod = 10 ** 9 + 7;\r\n\r\n\tp, q = 2, 1\r\n\r\n\twhile n != 1:\r\n\t\tif n % 2 == 1:\r\n\t\t\tq = (q * p) % mod\r\n\t\tp = (p * p) % mod\r\n\t\tn \/\/= 2;\r\n\treturn (p * q) % mod;\r\n\r\nN = int(input()) - 1;\r\nprint((solve(N) + solve(2 * N)) % (10 ** 9 + 7))","lang":2}

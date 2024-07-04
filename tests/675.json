@@ -1,0 +1,1 @@
+{"code":"input()\r\np = list(map(int,input().split()))\r\np.sort()\r\nx = sum(p)\r\nprint(sum(p[1:]) if p[0] < 0 else x)","lang":2}

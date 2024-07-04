@@ -1,0 +1,1 @@
+{"code":"for i in range(int(input())):\r\n  n, m = map(int,input().split())\r\n  x = n * (n + 1) \/\/ 2\r\n  if x == m:\r\n    print(1,end='')\r\n  else:\r\n    print(0,end='')","lang":2}

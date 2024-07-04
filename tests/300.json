@@ -1,0 +1,1 @@
+{"code":"def solve(n):\r\n  k = int(n ** 0.5)\r\n  \r\n  if k ** 2 == n:\r\n    return 'YES'\r\n  return 'NO'\r\n\r\nfor i in range(int(input())):\r\n  print(solve(int(input())))","lang":2}

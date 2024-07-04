@@ -1,0 +1,1 @@
+{"code":"print('yes' if set('PQ7') & set(input()) else 'no')","lang":2}

@@ -1,0 +1,1 @@
+{"code":"s = input()\r\nc = input()\r\nx = '1'\r\ny = '0'\r\nprint('Ha' if s.count(x) == c.count(x) and s.count(y) == c.count(y) else \"Yo'q deb\")","lang":2}

@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\ni = 0\r\nwhile n >= 0:\r\n\ti += 1\r\n\tn -= i * (i + 1) \/\/ 2\r\nprint(i-1)","lang":2}

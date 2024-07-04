@@ -1,0 +1,1 @@
+{"code":"HH, MM = map(int,input().split(':'))\r\nprint(f\"{30 * (HH%12)+MM\/2:.2f} {6*MM:.2f}\")","lang":2}

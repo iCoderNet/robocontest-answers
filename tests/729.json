@@ -1,0 +1,1 @@
+{"code":"k, n = map(int,input().split())\r\narr = list(map(int,input().split()))\r\ns = 0\r\nfor i in arr:\r\n\ts = (s + i * pow(k, n - 1, 2)) % 2\r\n\tn -= 1\r\nprint('even' if s % 2 == 0 else 'odd')","lang":2}

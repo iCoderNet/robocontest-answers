@@ -1,0 +1,1 @@
+{"code":"from datetime import datetime, timedelta\r\nx, y = map(int,input().split(\":\"))\r\ndays1 = datetime(2000,11,11,x,y)\r\ndays2 = datetime(2000,11,11,x,y)\r\nwhile True:\r\n\tdays1 += timedelta(minutes=1)\r\n\tm1 = str(days1)[11:16]\r\n\tif m1 == m1[::-1]:\r\n\t\tprint(m1)\r\n\t\tbreak","lang":2}

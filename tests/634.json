@@ -1,0 +1,1 @@
+{"code":"I = input\r\nl = len\r\nfor _ in range(int(I())):\r\n\ts = I()\r\n\tk, j = 0, 0\r\n\tfor i in 'robocontest':\r\n\t\twhile j < l(s) and s[j] != i: j += 1\r\n\t\tif j < l(s) and s[j] == i: k += 1\r\n\t\tif j == l(s): break\r\n\tprint('YES' if k == 11 else 'NO')","lang":2}

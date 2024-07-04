@@ -1,0 +1,1 @@
+{"code":"def f(L, R, K, D):\r\n\t\r\n\tif R >= L:#1 2 3 4 5 6\r\n\t\t\r\n\t\tM = L + (R - L) \/\/ 2\r\n\t\tif M == K:\r\n\t\t\treturn D\r\n\t\tif M < K:\r\n\t\t\treturn f(M+1, R, K, D+1)\r\n\t\treturn f(L, M-1, K, D+1)\r\n\r\nN, M, K = map(int,input().split())\r\nprint(f(0, N-1, K, 0) * M)","lang":2}

@@ -1,0 +1,1 @@
+{"code":"def FunkNur(SUM):\r\n\t\r\n\tn, m = map(int,input().split())\r\n\t\r\n\tfor i in range(m):\r\n\t\t\r\n\t\tl, r, k = map(int,input().split())\r\n\t\tSUM += (r - l + 1) * k\r\n\r\n\treturn SUM \/\/ n;\r\n\t\r\n\t\r\nprint(FunkNur(0))","lang":2}

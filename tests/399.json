@@ -1,0 +1,1 @@
+{"code":"n=input();print('=' if len({x for x in input().split()}) == 1 else '>')","lang":2}

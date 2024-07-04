@@ -1,0 +1,1 @@
+{"code":"res = 0\r\np = -1\r\na, b = input().split()\r\nfor i in a:\r\n\tif i == '1':\r\n\t\tres = res + 1 \/ p\r\n\tp = abs(p * 2)\r\nn = len(b)\r\np = 1\r\nfor i in range(n - 1, -1, -1):\r\n\tif b[i] == '1':\r\n\t\tif i != 0:\r\n\t\t\tres *= (2 ** p)\r\n\t\telse:\r\n\t\t\tres *= (-p)\r\n\tp *= 2\r\nprint(f\"{res:.6f}\")","lang":2}

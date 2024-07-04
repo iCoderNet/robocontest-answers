@@ -1,0 +1,1 @@
+{"code":"#include<bits\/stdc++.h>\r\nusing namespace std;\r\nint main()\r\n{\r\n string s; cin>>s;\r\n int a=s.find(\"AB\"),b=s.find(\"BA\");\r\n if((a!=-1 and (s.find(\"BA\",a+2))!=-1) or (b!=-1 and (s.find(\"AB\",b+2))!=-1)) cout<<\"YES\";\r\n else cout<<\"NO\";\r\n}\r\n\/\/2222222222222222222222","lang":4}

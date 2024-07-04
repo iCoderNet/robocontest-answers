@@ -1,0 +1,1 @@
+{"code":"n = int(input())\r\na = list(map(int,input().split()))\r\na.sort()\r\ns1, s2, = 0, 0\r\nfor i in range(n):\r\n  s1 += (9-i)*a[n-i-1]\r\n  s2 += i*a[n-i-1]\r\nprint(s1,s2)","lang":2}

@@ -1,0 +1,1 @@
+{"code":"a=input()\r\nk=eval(a[:a.find(\"=\")])\r\nl=int(a[a.find(\"=\")+1:])\r\nif l==k:\r\n    print(\"True\")\r\nelse:\r\n    print(\"False\",int(k))","lang":2}

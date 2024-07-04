@@ -1,0 +1,1 @@
+{"code":"a, b, c, x = map(float,input().split())\r\nif a * x ** 2 + b * x + c == 0:\r\n\tprint('YES')\r\nelse:\r\n\tprint('NO')","lang":2}

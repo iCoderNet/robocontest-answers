@@ -1,0 +1,1 @@
+{"code":"n = float(input())\r\nif n == 1:\r\n\tprint('Error')\r\nelse:\r\n\tprint(f'{(n+1)\/(n-1):.5f}')","lang":2}

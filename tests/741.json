@@ -1,0 +1,1 @@
+{"code":"for __ in range(int(input())):\r\n\tprint('0' if (int(input()) in [1,2,4,6,11,20,29]) else '1',end='')\r\n#asosiy yechim\r\ndp = [9] * 99999","lang":2}
